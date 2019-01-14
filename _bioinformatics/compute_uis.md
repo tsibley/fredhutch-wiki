@@ -62,7 +62,7 @@ Just load a Python distribution maintained by SciComp and run Jupyter lab:
 
 ```
     petersen@rhino1:~$ ml Python/3.6.5-foss-2016b-fh3
-    petersen@rhino1:~$ jupyter lab --no-browser
+    petersen@rhino1:~$ jupyter lab --ip=0.0.0.0 --no-browser
 ```
 
 Then connect to the URL, copying the link given by the previous command, which looks as follows:
